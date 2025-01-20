@@ -20,6 +20,8 @@
 
 # Project information
 site_name: Spectrum Log
+docs_dir: '../../docs/en'
+site_dir: '../../generated/en'
 site_url: https://luomein.github.io/spectrum-log/
 site_author: luomein
 site_description: >-
@@ -35,7 +37,7 @@ copyright: Copyright &copy; 2025 luomein
 # Configuration
 theme:
   name: material
-  custom_dir: material/overrides
+  custom_dir: '../../material/overrides'
   features:
     - announce.dismiss
     - content.action.edit
@@ -94,6 +96,7 @@ theme:
 plugins:
   - blog
   - search:
+      lang: en
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
 #  - minify:
 #      minify_html: true
@@ -105,6 +108,13 @@ hooks:
 
 # Additional configuration
 extra:
+  alternate:
+    -name: English
+     link: /en/
+     lang: en
+    -name: Nederlands
+     link: /nl/
+     lang: nl
   status:
     new: Recently added
     deprecated: Deprecated
