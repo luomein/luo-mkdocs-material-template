@@ -108,7 +108,7 @@ hooks:
 
 # Additional configuration
 extra:
-  alternate:                                        
+  alternate:     #### https://github.com/squidfunk/mkdocs-material/discussions/2346                                   
 
     # Switch to English
     - name: English
