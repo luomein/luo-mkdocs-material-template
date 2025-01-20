@@ -110,10 +110,10 @@ hooks:
 extra:
   alternate:
     -name: English
-     link: /en/
+     link: '/en/'
      lang: en
     -name: Nederlands
-     link: /nl/
+     link: '/nl/'
      lang: nl
   status:
     new: Recently added
