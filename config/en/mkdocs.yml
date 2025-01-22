@@ -297,4 +297,4 @@ nav:
       - Creating a reproduction: guides/creating-a-reproduction.md
     
   - Blog:
-    - '../../docs/blog/index.md'
+    - 'blog/index.md'
