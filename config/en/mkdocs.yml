@@ -116,14 +116,14 @@ extra:
       lang: en
 
     # Switch to Dutch
-    - name: Nederlands
-      link: /nl/
-      lang: nl
+    - name: 中文
+      link: /zh/
+      lang: zh
 
     # Switch to French
-    - name: Français
-      link: /fr/
-      lang: fr
+    #- name: Français
+    #  link: /fr/
+    #  lang: fr
       
   status:
     new: Recently added
