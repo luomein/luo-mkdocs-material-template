@@ -94,7 +94,8 @@ theme:
 
 # Plugins
 plugins:
-  - blog
+  - blog:
+      post_dir: '../../docs/blog/posts'
   - search:
       lang: en
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
@@ -296,4 +297,4 @@ nav:
       - Creating a reproduction: guides/creating-a-reproduction.md
     
   - Blog:
-    - blog/index.md
+    - '../../docs/blog/index.md'
