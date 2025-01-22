@@ -95,7 +95,7 @@ theme:
 # Plugins
 plugins:
   - blog:
-      blog_dir: '../../docs/blog'
+      blog_dir: 'blog'
   - search:
       lang: en
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
