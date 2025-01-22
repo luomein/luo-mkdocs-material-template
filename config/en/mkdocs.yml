@@ -100,8 +100,8 @@ plugins:
       lang: en
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - mkdocs-pdf    
-#  - minify:
-#      minify_html: true
+  - minify:
+      minify_html: true
 
 # Hooks
 hooks:
