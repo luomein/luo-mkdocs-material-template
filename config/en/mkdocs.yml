@@ -19,17 +19,17 @@
 # IN THE SOFTWARE.
 
 # Project information
-site_name: Spectrum Log
+site_name: luo-mkdocs-material-template
 docs_dir: '../../docs/en'
 site_dir: '../../generated/en'
-site_url: https://luomein.github.io/spectrum-log/
+site_url: https://luomein.github.io/luo-mkdocs-material-template/
 site_author: luomein
 site_description: >-
   Material for MkDocs static webpages hosted on GitHub
 
 # Repository
-repo_name: luomein/spectrum-log
-repo_url: https://github.com/luomein/spectrum-log
+repo_name: luomein/luo-mkdocs-material-template
+repo_url: https://github.com/luomein/luo-mkdocs-material-template
 
 # Copyright
 copyright: Copyright &copy; 2025 luomein
