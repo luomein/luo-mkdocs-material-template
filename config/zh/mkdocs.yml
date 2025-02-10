@@ -20,8 +20,8 @@
 
 # Project information
 site_name: Spectrum Log
-docs_dir: '../../docs/en'
-site_dir: '../../generated/en'
+docs_dir: '../../docs/zh'
+site_dir: '../../generated/zh'
 site_url: https://luomein.github.io/spectrum-log/
 site_author: luomein
 site_description: >-
