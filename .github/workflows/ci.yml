@@ -29,7 +29,7 @@ jobs:
       - run: pip install -r requirements.txt
       - run: mkdocs build -f config/en/mkdocs.yml
       - run: mkdocs build -f config/zh/mkdocs.yml
-      - run: mkdocs gh-deploy --force --clean --site-dir generated
+      #- run: mkdocs gh-deploy --force --clean --site-dir generated
       #- run: mkdocs gh-deploy --force --clean --config-file config/en/mkdocs.yml --site-dir generated/en
       #- run: mkdocs gh-deploy --force --clean --config-file config/zh/mkdocs.yml --site-dir generated/zh
 
