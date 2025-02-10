@@ -28,3 +28,5 @@ jobs:
       - run: pip install mkdocs-material 
       - run: pip install -r requirements.txt
       - run: mkdocs gh-deploy --force --clean --config-file config/en/mkdocs.yml --site-dir generated/en
+      - run: mkdocs gh-deploy --force --clean --config-file config/zh/mkdocs.yml --site-dir generated/zh
+
